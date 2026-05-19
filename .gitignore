@@ -222,3 +222,37 @@ __marimo__/
 __pycache__/
 .ipynb_checkpoints/
 .env
+
+# Large raw data files
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed data
+data/processed/*
+!data/processed/.gitkeep
+
+# Common data formats
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+
+# Jupyter / Anaconda
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+anaconda_projects/
+**/anaconda_projects/
+project_filebrowser.db
+
+# IDE / system
+.idea/
+.Rhistory
+.DS_Store
+
+# Secrets / tokens
+*.rtf
+*token*
+*.pem
+*.key
+.env
